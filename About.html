@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/index.css">
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+      .container {
+        height: 900px;
+        margin-bottom: 100px;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/Cathode">Battery Infinity</a>
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Comparison</a>
+               <ul class="dropdown-menu">
+                <li class="">
+                  <a class="dropdown-item" aria-current="page" href="/Cathode">Cathode</a>
+                </li>
+                <li class="">
+                  <a class="dropdown-item" href="/Anode">Anode</a>
+                </li>
+                <li class="">
+                  <a class="dropdown-item" href="/Electrolyte">Electrolyte</a>
+                </li>
+               </ul>
+           </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/AddData">Add Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Community">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/News">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/About">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <main class="flex-shrink-0">
+        <div class="container mt-5" style="background-color: #e3e5e8;">
+          <div style="text-align: center; width: 60%; background-color: #fcfcfc; margin: 20px auto; padding: 20px 10px">
+            <h1 style="font-weight: 50; margin-bottom: 20px;">Cathode 점수 산정 방법</h1>
+          
+            <p>
+              전압 5V -> 100점 (최고 전압 LiNi0.5Mn1.5O4를 포함하는 범위) <br>
+              용량 500Wh/kg -> 100점 (최고 용량 LiNi0.8Co0.15Al0.05O2를 포함하는 범위)  <br>
+              가격: 40$/kg -> 0점 (최고가 LiCoO2를 포함하는 범위) 
+            </p>
+
+          </div>
+          
+          <div style="text-align: center; width: 60%; background-color: #fcfcfc; margin: 40px auto; padding: 20px 10px">
+            <h1 style="font-weight: 50; margin-bottom: 20px;">Anode 점수 산정 방법</h1>
+          
+            <p>
+              이온전도도 점수: 10.0 mS/cm를 100점으로 기준해 점수 산출 <br><br>
+
+              안정성 점수: 기준 점수 50점에 대해 제시된 다음의 안정성 이슈에 따라 점수 가감 계산 <br>
+              전기화학적 안정성 - 작동 전압 범위 및 배터리 구동 시 리튬 분해 현상 유무 <br>
+              열적 안정성 - 배터리 작동 상황에서 고열로 인한 전해질 분해 반응 유무 <br>
+              물리적 안정성 - 외부 충격에 대한 강도 및 구조적 안정성 판단 
+            </p>
+
+          </div>
+
+          <div style="text-align: center; width: 60%; background-color: #fcfcfc; margin: 40px auto; padding: 20px 10px">
+            <h1 style="font-weight: 50; margin-bottom: 20px;">Electrolyte 점수 산정 방법</h1>
+          
+            <p>
+              이온전도도 점수: 10.0 mS/cm를 100점으로 기준해 점수 산출<br><br>
+
+              안정성 점수: 기준 점수 50점에 대해 제시된 다음의 안정성 이슈에 따라 점수 가감 계산 <br>
+              Electrochemical stability - 작동 전압 범위(0~5V) 및 배터리 구동 시 리튬 분해 현상 유무<br>
+              Thermal stability - 배터리 작동 상황에서 고열로 인한 전해질 분해 반응 유무<br>
+              Physical stability - 외부 충격에 대한 강도 및 구조적 안정성 판단 <br>
+            </p>
+
+          </div>
+        </div>
+   
+  
+      </main>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Battery Infinity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/index.css">
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/static/index.js"></script>
+    
+  </head>
+  <body style="background-color: #F5F5F5;">
+    
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/Cathode">Battery Infinity</a>
+          
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Comparison</a>
+                 <ul class="dropdown-menu">
+                  <li class="">
+                    <a class="dropdown-item" aria-current="page" href="/Cathode">Cathode</a>
+                  </li>
+                  <li class="">
+                    <a class="dropdown-item" href="/Anode">Anode</a>
+                  </li>
+                  <li class="">
+                    <a class="dropdown-item" href="/Electrolyte">Electrolyte</a>
+                  </li>
+                 </ul>
+             </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/AddData">Add Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Community">Community</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/News">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/About">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex-shrink-0">
+      <div class="container mt-5" style="background-color: #e3e5e8;">
+        
+        <div id="inputView">
+          <h1 style="font-weight: 50; margin-bottom: 20px;">Cathode Comparison</h1>
+          <p class="lead mt-2" style="font-size: 18px; margin-bottom: 40px;" class="mt-1">Simply select two cathode materials from the list provided below and click on the "Compare" button to perform an comprehensive side-by-side analysis.</p>
+        
+          <form id="compareForm" action="">
+            <input id="firstM" list="firstOptions" autocomplete="off" class="form-control form-control-lg" type="text" placeholder="Enter the name of the first material to search" aria-label=".form-control-lg example" required>
+            <datalist id="firstOptions">
+              <option value="LiCoO2"></option>
+              <option value="LiNi0.8Co0.15Al0.05O2"></option>
+              <option value="LiNi0.5Mn0.5O2"></option>
+              <option value="LiNi0.33Mn0.33Co0.33O2"></option>
+              <option value="LiNi0.6Mn0.2Co0.2O2"></option>
+              <option value="LiMn2O4"></option>
+              <option value="LiNi0.5Mn1.5O4"></option>
+              <option value="LiFePO4"></option>
+              <option value="LiNi0.5Mn0.43Ti0.02Mg0.02Nb0.01Mo0.02O2"></option>
+              <option value="LiMn2O4+LiNi0.88Co0.09Mn0.03O2(1-9)"></option>
+              <option value="LiMn2O4+LiNi0.88Co0.09Mn0.03O2(2-8)"></option>
+              <option value="LiMn2O4+LiNi0.88Co0.09Mn0.03O2(3-7)"></option>
+              <option value="P2-Na0.67CoO2"></option>
+              <option value="a-NaMnO2"></option>
+              <option value="ß-NaMnO2"></option>
+              <option value="Na0.44MnO2 "></option>
+              <option value="P2-Na0.67MnO2"></option>
+              <option value="P2-Na0.67Mn0.72Mg0.28O2"></option>
+              <option value="P2-Na0.67Mn0.95Mg0.05O2"></option>
+              <option value="P2-Na0.67Mn0.5Fe0.5O2"></option>
+              <option value="O3-NaMn0.5Fe0.5O2"></option>
+              <option value="P2-Na0.67Ni0.33Mn0.67O2"></option>
+              <option value="P2-Na0.8Li0.12Ni0.22Mn0.66O2"></option>
+              <option value="P2-Na0.83Li0.07Ni0.31Mn0.62O2"></option>
+              <option value="P2-Na0.83Li0.25Mn0.75O2"></option>
+              <option value="O3-NaFe0.5Co0.5O2"></option>
+              <option value="O3-NaNi0.33Co0.33Fe0.33O2"></option>
+              <option value="O3-NaNi0.5Mn0.5O2"></option>
+              <option value="Na0.9[Mn0.4Fe0.5Ti0.1]O2"></option>
+              <option value="NaMn0.33Fe0.33Ni0.33O2"></option>
+              <option value="NaMn0.3Fe0.4Ni0.3O2"></option>
+              <option value="P2-Na0.67Fe0.2Mn0.65Ni0.15O2"></option>
+              <option value="Na0.6Ni0.22Al0.11Mn0.66O2"></option>
+              <option value="Al2(V4O8)"></option>
+              <option value="Na3V2(PO4)3"></option>
+              <option value="Na4MnV(PO4)3"></option>
+              <option value="Na3MnTi(PO4)3)"></option>
+              <option value="Na3MnZr(PO4)3"></option>
+              <option value="NaFePO4"></option>
+              <option value="Na1.7O2Fe3(PO4)3"></option>
+              <option value="Na4Fe3(PO4)P2O7"></option>
+              <option value="Na2MnPO4F"></option>
+              <option value="NaV(PO4)F"></option>
+              <option value="Na1.5VPO4.8F0.7"></option>
+              <option value="Na2Fe(PO4)F"></option>
+              <option value="Na3MnPO4CO3"></option>
+              <option value="Na2MnFe(CN)6"></option>
+              <option value="Zn3[Fe(CN)6]2"></option>
+              <option value="Triptycene tribenzoquinone (TT) (C16O6H8)"></option>
+              <option value="Na2C8H4O4"></option>
+              <option value="Na2C6O6 (Disodium rhodizonate)"></option>
+              <option value="Calix[4]quinone (C4Q) (C28H16O8)"></option>
+              <option value="PTCDI (3,4,9,10-perylenetetracarboxylicdiimide)"></option>
+              <option value="PBQS (Poly(benzoquinonyl sulfide))"></option>
+            </datalist>
+
+            <p style="text-align: center; color:blue; margin-top:1em; font-weight:bold; font-size: 25px">VS</p>
+
+            <input id="secondM" list="secondOptions" autocomplete="off" class="form-control form-control-lg" type="text" placeholder="Enter the name of the second material to search" aria-label=".form-control-lg example" required>
+            <datalist id="secondOptions">
+              <option value="LiCoO2"></option>
+              <option value="LiNi0.8Co0.15Al0.05O2"></option>
+              <option value="LiNi0.5Mn0.5O2"></option>
+              <option value="LiNi0.33Mn0.33Co0.33O2"></option>
+              <option value="LiNi0.6Mn0.2Co0.2O2"></option>
+              <option value="LiMn2O4"></option>
+              <option value="LiNi0.5Mn1.5O4"></option>
+              <option value="LiFePO4"></option>
+              <option value="LiNi0.5Mn0.43Ti0.02Mg0.02Nb0.01Mo0.02O2"></option>
+              <option value="LiMn2O4+LiNi0.88Co0.09Mn0.03O2(1-9)"></option>
+              <option value="LiMn2O4+LiNi0.88Co0.09Mn0.03O2(2-8)"></option>
+              <option value="LiMn2O4+LiNi0.88Co0.09Mn0.03O2(3-7)"></option>
+              <option value="P2-Na0.67CoO2"></option>
+              <option value="a-NaMnO2"></option>
+              <option value="ß-NaMnO2"></option>
+              <option value="Na0.44MnO2 "></option>
+              <option value="P2-Na0.67MnO2"></option>
+              <option value="P2-Na0.67Mn0.72Mg0.28O2"></option>
+              <option value="P2-Na0.67Mn0.95Mg0.05O2"></option>
+              <option value="P2-Na0.67Mn0.5Fe0.5O2"></option>
+              <option value="O3-NaMn0.5Fe0.5O2"></option>
+              <option value="P2-Na0.67Ni0.33Mn0.67O2"></option>
+              <option value="P2-Na0.8Li0.12Ni0.22Mn0.66O2"></option>
+              <option value="P2-Na0.83Li0.07Ni0.31Mn0.62O2"></option>
+              <option value="P2-Na0.83Li0.25Mn0.75O2"></option>
+              <option value="O3-NaFe0.5Co0.5O2"></option>
+              <option value="O3-NaNi0.33Co0.33Fe0.33O2"></option>
+              <option value="O3-NaNi0.5Mn0.5O2"></option>
+              <option value="Na0.9[Mn0.4Fe0.5Ti0.1]O2"></option>
+              <option value="NaMn0.33Fe0.33Ni0.33O2"></option>
+              <option value="NaMn0.3Fe0.4Ni0.3O2"></option>
+              <option value="P2-Na0.67Fe0.2Mn0.65Ni0.15O2"></option>
+              <option value="Na0.6Ni0.22Al0.11Mn0.66O2"></option>
+              <option value="Al2(V4O8)"></option>
+              <option value="Na3V2(PO4)3"></option>
+              <option value="Na4MnV(PO4)3"></option>
+              <option value="Na3MnTi(PO4)3)"></option>
+              <option value="Na3MnZr(PO4)3"></option>
+              <option value="NaFePO4"></option>
+              <option value="Na1.7O2Fe3(PO4)3"></option>
+              <option value="Na4Fe3(PO4)P2O7"></option>
+              <option value="Na2MnPO4F"></option>
+              <option value="NaV(PO4)F"></option>
+              <option value="Na1.5VPO4.8F0.7"></option>
+              <option value="Na2Fe(PO4)F"></option>
+              <option value="Na3MnPO4CO3"></option>
+              <option value="Na2MnFe(CN)6"></option>
+              <option value="Zn3[Fe(CN)6]2"></option>
+              <option value="Triptycene tribenzoquinone (TT) (C16O6H8)"></option>
+              <option value="Na2C8H4O4"></option>
+              <option value="Na2C6O6 (Disodium rhodizonate)"></option>
+              <option value="Calix[4]quinone (C4Q) (C28H16O8)"></option>
+              <option value="PTCDI (3,4,9,10-perylenetetracarboxylicdiimide)"></option>
+              <option value="PBQS (Poly(benzoquinonyl sulfide))"></option>
+            </datalist>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
+              <button class="btn btn-primary btn-lg me-md-2" type="submit">Compare</button>
+            </div>
+
+            <p style="margin-top:1em;">
+              <span style="color: red;">*</span> If you have new data, please add them via <a href="/AddData">Click here</a>
+            </p>
+
+          </form>
+        </div>
+        
+      </div>
+      
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+접속 방법
+
+vscode에서 fastapi 깐 다음에
+
+uvicorn main:app --reload를 cmd에서 battery infinity폴더 경로로 해서 치고
+
+127.0.0.1:8000/Cathode로 접속하면 사이트 볼 수 있음

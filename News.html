@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/news.css">
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/static/index.js"></script>
+</head>
+<body>
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/Cathode">Battery Infinity</a>
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Comparison</a>
+               <ul class="dropdown-menu">
+                <li class="">
+                  <a class="dropdown-item" aria-current="page" href="/Cathode">Cathode</a>
+                </li>
+                <li class="">
+                  <a class="dropdown-item" href="/Anode">Anode</a>
+                </li>
+                <li class="">
+                  <a class="dropdown-item" href="/Electrolyte">Electrolyte</a>
+                </li>
+               </ul>
+           </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/AddData">Add Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Community">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/News">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/About">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <main class="flex-shrink-0">
+        <div class="container mt-5" style="background-color: #e3e5e8;">
+          
+          <div class="newsContainer">
+            <div class="cont">
+              <p>국내 뉴스</p>
+              <div id="domestic">
+                <div class="card" style="width: 16rem;">
+                    <a target="_blank" href="https://n.news.naver.com/mnews/article/138/0002174760"><img class="card-img-top" src="https://imgnews.pstatic.net/image/138/2024/06/04/0002174760_001_20240604190806424.jpg?type=w647" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">케즘 대안 ESS 열쇠는 '안전성'...비슷한 듯 다른 기술 [테크다이브]</h5>
+                      <div style="text-align: right;">
+                        <p class="card-text">2024.06.04.</p>
+                      </div>
+                    </div>
+                </div>
+  
+                <div class="card" style="width: 16rem;">
+                    <a target="_blank" href="https://n.news.naver.com/mnews/article/138/0002173536"><img class="card-img-top" src="https://imgnews.pstatic.net/image/138/2024/05/18/0002173536_001_20240518134803499.png?type=w647" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">[박대리보고서] 美, 中 전기차 진입장벽 높였다…대규모 ESS 수주 확보한 LG엔솔</h5>
+                      <div style="text-align: right;">
+                        <p class="card-text">2024.05.18.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="cont">
+              <p>해외 뉴스</p>
+              <div id="abroad">
+                
+                <div class="card" style="width: 16rem;">
+                    <a target="_blank" href="https://www.nytimes.com/2024/05/15/business/economy/china-electric-vehicles-biden-tariffs.html"><img class="card-img-top" src="https://static01.nyt.com/images/2024/05/15/multimedia/15ev-tariffs-fjhk/15ev-tariffs-fjhk-jumbo.jpg?quality=75&auto=webp" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Few Chinese Electric Cars Are Sold in U.S., but Industry Fears a Flood</h5>
+                      <div style="text-align: right;">
+                        <p class="card-text">2024.05.15.</p>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 16rem;">
+                    <a target="_blank" href="https://www.bbc.com/news/articles/cyx6xdggx2eo"><img class="card-img-top" src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/d7f3/live/a10f00a0-136e-11ef-83f9-51268683e1ae.jpg.webp" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Plans for large battery storage facility submitted</h5>
+                      <div style="text-align: right;">
+                        <p class="card-text">2024.05.20.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="newsContainer">
+            <div class="cont">
+              <p>주요 논문</p>
+              <div id="domestic">
+                <div class="card" style="width: 16rem;">
+                    <a target="_blank" href="https://pubs.acs.org/doi/full/10.1021/nn400391h"><img class="card-img-top" src="https://pubs.acs.org/cms/10.1021/ancac3.2013.7.issue-3/asset/146202ab-0014-202a-4001-6202ab400146/ancac3.2013.7.issue-3.largecover.jpg" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Lithium Superionic Sulfide Cathode for All-Solid Lithium–Sulfur Batteries</h5>
+                      <div style="text-align: right;">
+                        <p class="card-text">2013.02.22.</p>
+                      </div>
+                    </div>
+                </div>
+  
+                <div class="card" style="width: 16rem;">
+                    <a target="_blank" href="https://pubs.acs.org/doi/full/10.1021/acssuschemeng.2c01496"><img class="card-img-top" src="https://pubs.acs.org/cms/10.1021/ascecg.2022.10.issue-30/asset/185d38d3-c518-d38d-cc51-5d38d3cc5185/ascecg.2022.10.issue-30.largecover.jpg" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Environmental Impact Assessment of LiNi1/3Mn1/3Co1/3O2 Hydrometallurgical Cathode Recycling from Spent Lithium-Ion Batteries
+                      </h5>
+                      <div style="text-align: right;">
+                        <p class="card-text">2022.07.21.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="cont">
+              <p>채용 정보</p>
+              <div id="abroad">
+                
+                <div class="card" style="width: 16rem;">
+                  <a target="_blank" href="https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=48305833&recommend_ids=eJxVj7kRwzAMBKtxjv9wsQpR%2F12YosckFS728EUrqiB3q35wRbuTzptiE80ancPKD8FRGFgPgqV92Ke3dPVqmaP%2B4WnTt20PsbVXNEtlhS2BjI2ekblQYWQf4WzrdYYWxX1bhOXxghSaG8sisZHC0PfkiV%2BVb0CK&view_type=search&searchword=%EB%B0%B0%ED%84%B0%EB%A6%AC&searchType=search&gz=1&t_ref_content=generic&t_ref=search&relayNonce=3fa6913b13ce456fefe5&paid_fl=n&search_uuid=01410434-21fe-450f-bc03-b4a4c1fbf6cd&immediately_apply_layer_open=n#seq=0
+                  "><img class="card-img-top" src="data:image/png;base64,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" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">평택시험소 EV 배터리 시험 엔지니어 채용</h5>
+                      <div style="text-align: right;">
+                        <p class="card-text">2024.05.30.</p>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 16rem;">
+                  <a target="_blank" href="https://job.incruit.com/jobdb_info/jobpost.asp?job=2405160001268&src=etc*search"><img class="card-img-top" src="https://img.incruit.com/ui/static/image/common/n_common/incruit_og_800.png" alt=""></a>
+                    <div class="card-body">
+                      <h5 class="card-title">배터리 용매추출 R&D 경력직 영입</h5>
+                      <div style="text-align: right;">
+                        <p class="card-text">2024.05.26.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+  
+      </main>
+
+    
+
+</body>
+</html>
