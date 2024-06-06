@@ -1,0 +1,92 @@
+Electrolyte_Name,,이온 전도도 점수,안정성 점수,출처 논문,특징
+1M LiPF6+EC/DEC 1:1,,79.6,35,https://doi.org/10.1016/j.electacta.2013.09.155,"열적 안정성 부족, 높은 온도(60~80℃)에서 염의 용해 확인
+1st cycle coulombic efficiency: 81.9%
+Average coulombic efficiency of cycle 51~100: 99.94%
+Calculated SEI thickness after 20s sputtering : 17.05?"
+1M LiPF6+EC/DMC 0.4:0.6,,107,35,https://doi.org/10.1016/j.jpowsour.2011.07.071,"Viscosity: 5.1 cP (EC/DMC 1:1)
+1st cycle coulombic efficiency: 96.6%"
+1M LiTFSi+EC/DMC 0.4:0.6,,94,40,https://doi.org/10.1016/j.jpowsour.2011.07.071,"LiPF6보다 열적 안정성이 높다.
+알루미늄과 반응해 알루미늄 집전체를 용해시키는 문제점. LiPF6를 첨가제로 활용하는 것으로 줄일 수 있다.
+Viscosity: 3.9 cP (EC/DMC 1:1)
+1st cycle coulombic efficiency: 97.3%"
+1M LiHPSi+EC/DEC 1:1,,61.9,55,https://doi.org/10.1016/j.electacta.2013.09.155,"LiTFSi와 달리 알루미늄 집전체를 용해시키는 문제점이 없다.
+LiPF6에 비해 약간 낮은 이온 전도도, 전기화학적 안정성을 가지지만 활용하기에는 충분한 수준,  
+LiPF6보다 열적 안정성이 높다. (at 60℃ 실험에서 확인)
+1st cycle coulombic efficiency: 81.1%
+Average coulombic efficiency of cycle 51~100: 99.88%
+Calculated SEI thickness after 20s sputtering : 19.64?"
+1M LiDMSi+EC/DEC 1:1,,58.5,55,https://doi.org/10.1016/j.electacta.2013.09.155,"LiTFSi와 달리 알루미늄 집전체를 용해시키는 문제점이 없다.
+LiPF6에 비해 약간 낮은 이온 전도도, 전기화학적 안정성을 가지지만 활용하기에는 충분한 수준,  
+LiPF6보다 열적 안정성이 높다. (at 60℃ 실험에서 확인)
+1st cycle coulombic efficiency: 78.2%
+Average coulombic efficiency of cycle 51~100: 99.80%
+Calculated SEI thickness after 20s sputtering : 28.64?"
+1M LiFSi+DME,,169.3,40,https://doi.org/10.1016/j.jpowsour.2018.08.059,"LiFSi: Dendrite 생성으로 인한 Poor Cycle life.
+1st cycle coulombic efficiency: 81.9%"
+2M LiFSi+DME,,100.1,40,https://doi.org/10.1016/j.jpowsour.2018.08.059,LiFSi: Dendrite 생성으로 인한 Poor Cycle life.
+0.5M LiFSi+0.5M LiPO2F2+DME,,125.4,50,https://doi.org/10.1016/j.jpowsour.2018.08.059,"LiFSi/LiPO2F2: LiFSi 단점을 LiPO2F2 첨가로 보완, 높은 Cycle number(>150)에서 높은 coulombic efficiency 유지, 
+전압 편극 현상 발생
+1st cycle coulombic efficiency: 85.3%"
+1M LiFSi+1M LiPO2F2+DME,,99.8,50,https://doi.org/10.1016/j.jpowsour.2018.08.059,"LiFSi/LiPO2F2: LiFSi 단점을 LiPO2F2 첨가로 보완, 높은 Cycle number(>150)에서 높은 coulombic efficiency 유지, 
+전압 편극 현상 발생
+1st cycle coulombic efficiency: 62.8%"
+1M LiPO2F2+DME,,3.83,50,https://doi.org/10.1016/j.jpowsour.2018.08.059,"LiPO2F2: SEI layer 안정화에 기여, 높은 Cycle number(>150)에서 높은 coulombic efficiency 유지, 전압 편극 현상 발생
+1st cycle coulombic efficiency: 80.8%"
+2M LiPO2F2+DME,,3.23,50,https://doi.org/10.1016/j.jpowsour.2018.08.059,"LiPO2F2: SEI layer 안정화에 기여, 높은 Cycle number(>150)에서 높은 coulombic efficiency 유지,  전압 편극 현상 발생"
+1M LiBOB+EC/EMC 1:1,,90,65,https://doi.org/10.1149/1.1426042,"LiBOB: 낮은 가격, LiPF6와 비교해 높은 열적 안정성, 분해 시 생성되는 물질의 독성 낮음.
+낮은 Solubility"
+1M LiBOB+PC/EC 1:1,,30.28,65,https://doi.org/10.1016/j.electacta.2016.03.127,"LiBOB: 낮은 가격, LiPF6와 비교해 높은 열적 안정성, 분해 시 생성되는 물질의 독성 낮음.
+낮은 Solubility
+Flash point: 137℃
+1st cycle coulombic efficiency: 57%
+50th cycle coulombic efficiency: 100%"
+1M LiBOB+TMS,,17.98,65,https://doi.org/10.1016/j.electacta.2016.03.127,"LiBOB: 낮은 가격, LiPF6와 비교해 높은 열적 안정성, 분해 시 생성되는 물질의 독성 낮음.
+낮은 Solubility
+Flash point: 189℃
+1st cycle coulombic efficiency: 64%
+50th cycle coulombic efficiency: 99%"
+1M LiBOB+GBL/VC 9:1,,46.44,65,https://doi.org/10.1016/j.electacta.2016.03.127,"LiBOB: 낮은 가격, LiPF6와 비교해 높은 열적 안정성, 분해 시 생성되는 물질의 독성 낮음.
+낮은 Solubility
+Flash point: 118℃
+1st cycle coulombic efficiency: 65%
+50th cycle coulombic efficiency: 99%"
+0.5M LiBOB+PC/DMC 1:1,,27.27,40,https://doi.org/10.1016/j.electacta.2016.03.127,"LiBOB: 낮은 가격, LiPF6와 비교해 높은 열적 안정성, 분해 시 생성되는 물질의 독성 낮음.
+낮은 Solubility
+Flash point: 48℃ // 낮은 발화점으로 열적 안정성 하락.
+1st cycle coulombic efficiency: 52%
+50th cycle coulombic efficiency: 99%"
+0.3M LiBOB+MePrPyrNTf2/PC 2:1,,59.63,65,https://doi.org/10.1016/j.electacta.2016.03.127,"LiBOB: 낮은 가격, LiPF6와 비교해 높은 열적 안정성, 분해 시 생성되는 물질의 독성 낮음.
+낮은 Solubility
+Flash point: 164℃
+1st cycle coulombic efficiency: 73%
+50th cycle coulombic efficiency: 100%"
+Li1.3Al0.3Ti1.7(PO4)3,,7,75,https://doi.org/10.1021/ar00045a002,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성L
+ATP - Ti4+ 환원 반응으로 인해 low potential anode materials 적용 불가능"
+Li1.5Al0.5Ge1.5(PO4)3,,4,60,https://doi.org/10.1016/S0167-2738(97)00434-7,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+LAGP - Li 금속과 접촉 시 기계적, 열적 파손 가능성,  GeO2 precursor 가격 비쌈"
+Li1.5Al0.5Ge1.5(PO4)3-0.05Li2O,,7.25,60,https://doi.org/10.1111/j.1551-2916.2007.01827.x,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+LAGP - Li 금속과 접촉 시 기계적, 열적 파손 가능성,  GeO2 precursor 가격 비쌈"
+Li1.5Al0.4Cr0.1Ge1.5(PO4)3,,66.5,60,https://doi.org/10.1016/j.ssi.2016.03.012,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+LAGP - Li 금속과 접촉 시 기계적, 열적 파손 가능성,  GeO2 precursor 가격 비쌈"
+Li6.75La3(Zr1.75Nb0.25)O12,,8,50,https://doi.org/10.1016/j.jpowsour.2010.11.089,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+Garnet - Li 금속과의 계면 접촉이 좋지 못해 Li 수지상 dendrite 성장, 분극 발생 가능성, 물과 반응해 공기 중에서 다루기 까다로움."
+Li6.4La3Zr1.4Ta0.6O12,,10,50,https://doi.org/10.1039/C2JM31413D,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+Garnet - Li 금속과의 계면 접촉이 좋지 못해 Li 수지상 dendrite 성장, 분극 발생 가능성, 물과 반응해 공기 중에서 다루기 까다로움."
+Li3/8Sr7/16Ta3/4Zr1/4O3,,2.7,60,https://doi.org/10.1016/j.ssi.2014.04.005,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+Perovskite - Li 금속과 접촉 시 전해질로서의 기능 상실
+LSTZ - 높은 온도에서 Li loss 적음
+LSTZ/LSTH - 합성 시 필요한 온도 높음 (1300°C)"
+Li3/8Sr7/16Ta3/4Hf1/4O3,,3.8,60,https://doi.org/10.1021/acsami.6b03070,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+Perovskite - Li 금속과 접촉 시 전해질로서의 기능 상실
+LSTZ/LSTH - 합성 시 필요한 온도 높음 (1300°C)"
+Li3/8Sr7/16Nb3/4Zr1/4O3,,0.2,60,https://doi.org/10.1016/j.jpowsour.2015.12.065,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+Perovskite - Li 금속과 접촉 시 전해질로서의 기능 상실
+LSZN - Ta2O5와 비슷한 특성을 가지지만 더 싸고 낮은 녹는점을 가진 Nb2O5 사용, 여전히 합성 시 필요한 온도 높음 (1200°C)"
+Li10.42Si1.5P1.5Cl0.08O11.92,,0.103,90,https://doi.org/10.1039/C4RA11287C,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+LISICON - 공기 중에서 안정적, 낮은 가격, 가벼운 무게"
+Li10.42Ge1.5P1.5Cl0.08O11.92,,0.37,80,https://doi.org/10.1039/C4RA11287C,"고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+LISICON - 공기 중에서 안정적, 낮은 가격, 가벼운 무게
+Cycle number 23에서 coulombic efficiency 급격한 하락"
+Li3PO4 (target),,0.02,90,"https://doi.org/10.1016/0378-7753(93)80106-Y
+","고체 전해질 - 누액으로 인한 사고 가능성 없음, 화학적 안정성, packing cost 절감, 열적 안정성
+LIPON - 얇은 필름으로 가공 가능."

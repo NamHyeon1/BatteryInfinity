@@ -1,0 +1,55 @@
+Cathode_Name,전압 점수,용량 점수,가격 점수,소재 특징,DOI
+LiCoO2,78,80.4,20,"높은 전기전도성, 쉬운 합성, 50% 용량 손실, 낮은 에너지 밀도",https://doi.org/10.1149/1.2221184
+LiNi0.8Co0.15Al0.05O2,74,89,63,"높은 출력 및 효율, 낮은 안정성, 높은 열화 가능성",https://doi.org/10.1002/aenm.202101864
+LiNi0.5Mn0.5O2,78,80.4,81,"매우 낮은 에너지 밀도, 열화 가능성, 비교적 안정함",https://doi.org/10.1246/cl.2001.744
+LiNi0.33Mn0.33Co0.33O2,74,79.8,60,NMC111,https://doi.org/10.1246/cl.2001.642
+LiNi0.6Mn0.2Co0.2O2,74,83.2,64,"NMC622  하이니켈, 낮은 배터리 안정성 및 열화 가능성",https://doi.org/10.1246/cl.2001.642
+LiMn2O4,82,69.8,95,"LMO 쉬운 제작법, 매우 낮은 에너지 밀도, 열화 가능성, 낮은 사이클 성능",https://www.sciencedirect.com/journal/journal-of-power-sources/vol/97/suppl/C
+LiNi0.5Mn1.5O4,94,91.6,86,LNMO,https://doi.org/10.1002/aenm.201600922
+LiFePO4,69,75.8,94,"LFP 높은 열적 안정성, 매우 높은 성능 안정성, 독성 없음, 제작의 어려움, 높은 가역성",https://doi.org/10.1038/s41598-020-62553-3
+LiNi0.5Mn0.43Ti0.02Mg0.02Nb0.01Mo0.02O2,72,128.4,80,"HE-N50 높은 열적 안정성, 높은 사이클 안정성",https://doi.org/10.1038/s41560-023-01267-y
+LiMn2O4+LiNi0.88Co0.09Mn0.03O2(1-9),74,44.8,71,"높은 사이클 안정성, 빠른 충전 속도",https://doi.org/10.1016/j.ensm.2022.05.054
+LiMn2O4+LiNi0.88Co0.09Mn0.03O2(2-8),74,44.2,75,"높은 사이클 안정성, 빠른 충전 속도",https://doi.org/10.1016/j.ensm.2022.05.054
+LiMn2O4+LiNi0.88Co0.09Mn0.03O2(3-7),74,42.6,78,"높은 사이클 안정성, 빠른 충전 속도",https://doi.org/10.1016/j.ensm.2022.05.054
+P2-Na0.67CoO2 ,60,50.2,30,"낮은 사이클 안정성 30회 23% 용량감소, 높은 표면 저항, 열화가능성 높음",https://doi.org/10.1149/MA2014-04/2/328
+a-NaMnO2,55,60.4,97,"열적 안정성이 높음, 700℃에서 제조, 2~3.8V 전압범위 c/2.4 75mAh/g",https://doi.org/10.3390/en14051230
+ß-NaMnO2,55,61.4,97,"높은 열적 안정성, 950℃에서 제조, 2~3.8V c/2.4 60-50mAh/g, α 구조보다 낮은 과전압",https://doi.org/10.3390/en14051230
+Na0.44MnO2 ,56,45.8,97,"C/250-/200의 낮은 율속 2~3.8V 운전전압 부적절, 5개의 여러가지 망간 위치가 존재, 규명되 지 못한 반응 메커니즘이 존재",https://doi.org/10.1021/ja509704t
+P2-Na0.67MnO2,56,59.4,97,x,https://doi.org/10.1039/C4EE00465E
+P2-Na0.67Mn0.72Mg0.28O2,52,63.4,96,"고전압으로 충전 이후 높은 용량, 30회 62.5%, 산소 손실 가능성 존재, 15% 부피팽창, 안정성 검증 필요, 높은 Na 손실률",https://doi.org/10.1039/C4TA04351K
+P2-Na0.67Mn0.95Mg0.05O2,52,54.8,97,x,https://doi.org/10.1039/C4EE00465E
+P2-Na0.67Mn0.5Fe0.5O2,55,61.4,99,"높은 가역용량, 저렴한 원재료, hard carbon 음극",https://www.nature.com/articles/nmat3309
+O3-NaMn0.5Fe0.5O2,55,42,99,"전기적 활성화 가짐, 낮은 가역 용량",https://www.nature.com/articles/nmat3309
+P2-Na0.67Ni0.33Mn0.67O2,74,75.8,90,"충방전시 4.4V까지 구조가 매우 안정, 하나의 부드러운 전압 변화",https://doi.org/10.1021/cm403855t
+P2-Na0.8Li0.12Ni0.22Mn0.66O2,68,57,92,고전압에서도 P2 상의 높은 안정성,https://doi.org/10.1039/C6TA09601H
+P2-Na0.83Li0.07Ni0.31Mn0.62O2,70,64.8,90,x,https://doi.org/10.1021/cm403855t
+P2-Na0.83Li0.25Mn0.75O2,54,59.2,97,상전이시 부분적인 산소 손실 발생,https://doi.org/10.1002/aenm.201301453
+O3-NaFe0.5Co0.5O2,62.8,63.4,67,"10C 방전용량 75%, Cut off 전위 3.5V 이상에서 비가역 용량 증가",https://doi.org/10.1016/j.elecom.2013.05.012
+O3-NaNi0.33Co0.33Fe0.33O2,59,60.6,70,"0.05C: 165mAh/g, 0.1C에서 120mAh/g, 30C에서 80mAh/g",https://doi.org/10.1016/j.elecom.2013.11.015
+O3-NaNi0.5Mn0.5O2,58,50.4,87,"낮은 충방전 효율, 낮은 율속 특성",https://doi.org/10.1021/ic300357d
+Na0.9[Mn0.4Fe0.5Ti0.1]O2,56,43,98,"매우 우수한 사이클 특성, 0.1C 109mAh/g, 150사이클 94% 유지, 5C 400사이클 60mAh/g 이상",https://doi.org/10.1039/C6RA22818F
+NaMn0.33Fe0.33Ni0.33O2,55,58.4,91,"TiO2 코팅 소재, TiO2의 비독성 및 안정성,  1C 코팅 105mAh/g, 코팅 X 80mAh/g",https://doi.org/10.1021/acsaem.9b02021
+NaMn0.3Fe0.4Ni0.3O2,60,52.2,92,"높은 율속 특성, 작은 편극현상, 50회 80%의 사이클 특성",https://doi.org/10.1149/2.018305jes
+P2-Na0.67Fe0.2Mn0.65Ni0.15O2,62,72.2,94,"50회 71% 사이클 특성, 높은 율속 특성, 0.05C: 200mAh/g 1C: 154mAh/g",https://doi.org/10.1016/j.electacta.2013.10.211
+Na0.6Ni0.22Al0.11Mn0.66O2,60,75,92,x,https://doi.org/10.1039/C5RA06336A
+Al2(V4O8),10,18,49,"낮은 구조적 안정성, 낮은 사이클 안정성",https://doi.org/10.1038/srep03383
+Na3V2(PO4)3,67.4,19,78,"NASICON 구조, 0.2C에서의 용량, 매우 낮은 율속 특성, 10사이클 99%용량 유지",https://doi.org/10.1016/j.elecom.2011.11.009
+Na4MnV(PO4)3,68,22,89,"낮은 전기 전도성, 20C에서 65mAh/g, NaClO4 10M 전해질 사용시 최적, 50사이클 82% 용량",https://doi.org/10.1016/j.jpowsour.2019.04.080
+Na3MnTi(PO4)3),72,16.4,99," dual carbon decoration, V보다 독성이 낮은 Ti, 1C에서 800 사이클 76% 용량",https://doi.org/10.1016/j.nanoen.2020.104548
+Na3MnZr(PO4)3,73.2,22,99,"87% 쿨롱 효율, 0.5C 500사이클 91% 용량, 충방전의 반응 메커니즘 및 구조 변화 명시",https://doi.org/10.1021/jacs.8b11388
+NaFePO4,54,17,100,"0.05C 50사이클 80% 용량, 낮은 율속 특성, 0.5C에서 용량",https://doi.org/10.1016/j.elecom.2012.06.014
+Na1.7O2Fe3(PO4)3,58,28,100,"30-55도 작동 온도, 낮은 율속특성",https://doi.org/10.1039/c4ra05336b
+Na4Fe3(PO4)P2O7,64,21.2,100,"1C 100사이클 75%, ",https://doi.org/10.1039/C4RA05336B
+Na2MnPO4F,73.2,6,99,"나노 섬유 구조, 낮은 율속 특성, 0.1C 90.6mAh/g, 0.05C 50사이클 67% 용량",https://doi.org/10.1016/j.jcis.2021.06.081
+NaV(PO4)F,74,18,74,"나노구조 (rGO 탄소 네트워크), 15C 75mAh/g, 5C 1500사이클 99.9885% 용량",https://doi.org/10.1039/D0TA06614A
+Na1.5VPO4.8F0.7,76,26.8,76,"2.9%의 낮은 부피 팽창, 1C 500사이클 84% 용량",https://doi.org/10.1021/ja406016j
+Na2Fe(PO4)F,60,23,100,"산업용 생산 방법(고상 반응, 알코올 보조 볼 밀링), 2C 90.3mAh/g 용량, 0.5C 100사이클 96.2% 용량",https://doi.org/10.1007/s11771-019-4108-5
+Na3MnPO4CO3,74,25.4,99,"세척 건조 없는 기계적 볼밀링 제작법, 0.1C 116mAh/g 용량",https://doi.org/10.3390/en12234534
+Na2MnFe(CN)6,70,24.2,98,"마이크로 큐브 구조, 10C 110.3mAh/g 용량",https://doi.org/10.1039/c9ta08603j
+Zn3[Fe(CN)6]2,32,22,96,"Aqueous Battery, 낮은 방전 용량",https://doi.org/10.1002/adfm.202301291
+Triptycene tribenzoquinone (TT) (C16O6H8),50,206.4,98,"Cathode가 전해질에 용해되는 문제가 존재, Organic lithium ion battery",https://doi.org/10.1039/C7TA09968A
+Na2C8H4O4,5,12.9,99,"Organic sodium ion battery, irreversible capacity가 큼",https://doi.org/10.1002/adfm.202107718
+Na2C6O6 (Disodium rhodizonate),30,145.2,99,"Organic sodium ion battery, 높은 에너지 효율",http://dx.doi.org/10.1038/s41560-017-0014-y
+Calix[4]quinone (C4Q) (C28H16O8),50,203.5,98,"Organic sodium ion battery, 낮은 cycle 안정성",https://doi.org/10.1039/C7QI00453B
+"PTCDI (3,4,9,10-perylenetetracarboxylicdiimide)",40,36.8,98,"Organic sodium ion battery, 높은 충전 속도",https://doi.org/10.1002/chem.202003624
+PBQS (Poly(benzoquinonyl sulfide)),41.6,111.4,99,"Organic sodium ion battery에서 낮은 안정성, Organic lithuim ion battery에서 높은 안정성",https://doi.org/10.1002/advs.201500124
